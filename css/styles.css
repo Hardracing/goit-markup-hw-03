@@ -222,21 +222,21 @@ img {
   flex-wrap: wrap;
 }
 
-.item {
+.features-item {
   width: calc((100% - 3 * 30px) / 4);
   margin-right: 30px;
   margin-bottom: 94px;
 }
 
-.item:nth-child(4n) {
+.features-item:nth-child(4n) {
   margin-right: 0;
 }
 
-/* .item:nth-last-child(-n + 4) {
+/* .features-item:nth-last-child(-n + 4) {
   margin-bottom: 0;
 } */
 
-/* .features .item + .item {
+/* .features .features-item + .features-item {
   margin-left: 30px;
 } */
 
