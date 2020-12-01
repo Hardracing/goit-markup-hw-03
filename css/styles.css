@@ -226,6 +226,7 @@ img {
   width: calc((100% - 3 * 30px) / 4);
   margin-right: 30px;
   margin-bottom: 94px;
+  margin-top: 94px;
 }
 
 .features-item:nth-child(4n) {
@@ -253,6 +254,17 @@ p {
 
 .work {
   display: flex;
+}
+
+.work-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .work-photo {
@@ -321,6 +333,10 @@ p {
 
   margin-top: 0;
   margin-bottom: 50px;
+}
+
+.section .title {
+  display: none;
 }
 
 /* .title {
@@ -438,6 +454,7 @@ button:focus {
 }
 
 .filters {
+  margin-top: 94px;
   margin-right: 8px;
   margin-bottom: 50px;
 }
