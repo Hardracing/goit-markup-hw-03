@@ -476,7 +476,7 @@ button:focus {
 }
 
 .filters {
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-right: 8px;
   padding-bottom: 50px;
 }
