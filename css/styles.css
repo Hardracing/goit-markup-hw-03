@@ -352,8 +352,7 @@ p {
 }
 
 .team-text {
-  padding-top: 33px;
-  padding-bottom: 33px;
+  padding: 30px 32px;
 }
 
 .section .title {
@@ -385,72 +384,10 @@ p {
 
 /* Кнопки портфолио */
 
-/* .container-filters {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  justify-content: center;
-  width: 611px;
-} */
-
-/* .buttons {
-  display: flex;
-  padding-bottom: 50px;
-  justify-content: center;
-}
-
-.buttons .filters {
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-
-  width: calc((100% - 4 * 8px) / 5);
-  margin-right: 8px;
-}
-
-.buttons .filters:nth-child(5n) {
-  margin-right: 0;
-}
-
-button {
-  background-color: var(--secondary-bg-color);
-  color: var(--title-text-color);
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  cursor: pointer;
-
-  border: 0px solid transparent;
-  padding: 6px 24px;
-  border-color: var(--secondary-bg-color);
-  border-radius: 4px;
-}
-
-button:hover,
-button:focus {
-  color: var(--primary-bg-color);
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
-.filters {
-  width: calc((100% - 4 * 8px) / 5);
-  margin-right: 8px;
-}
-
-.filters:nth-child(5n) {
-  margin-right: 0;
-} */
-
 .buttons {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 button {
@@ -476,13 +413,11 @@ button:focus {
 }
 
 .filters {
-  /* padding-top: 94px; */
-  padding-right: 8px;
-  padding-bottom: 50px;
+  margin-right: 8px;
 }
 
 .filters:nth-child(5n) {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 /* .title {
